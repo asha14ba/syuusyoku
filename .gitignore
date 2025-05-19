@@ -4,3 +4,16 @@ plots/
 archive/
 *.csv
 *.jpg
+
+# すべて ignore
+*
+
+# ディレクトリは無視リストから外す
+!*/
+
+# .gitignore 自身は追跡
+!.gitignore
+
+# .py と .ipynb は追跡
+!*.py
+!*.ipynb
